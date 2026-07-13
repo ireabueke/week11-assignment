@@ -1,0 +1,38 @@
+main {
+  max-width: 900px;
+  padding: 50px;
+  margin: auto;
+}
+.hero {
+  margin: auto;
+}
+
+.hero-eyebrow {
+  color: var(--accent);
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  line-height: 0.5;
+  text-transform: uppercase;
+}
+
+.hero-title {
+  font-weight: 900;
+  margin-bottom: 20px;
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+.hero-subtitle {
+  font-weight: 500;
+  color: var(--muted);
+  line-height: 1.5;
+  font-size: 1.4rem;
+  max-width: 42rem;
+  margin-bottom: 20px;
+}
+.course-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+}

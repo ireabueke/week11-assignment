@@ -1,0 +1,26 @@
+:root {
+  --bg: #f5f5f7;
+  --surface: #ffffff;
+  --border: #e4e4e7;
+  --text: #18181b;
+  --muted: #71717a;
+  --accent: #6366f1;
+  --accent-bg: #eef2ff;
+  --green: #22c55e;
+  --green-bg: #f0fdf4;
+  --radius: 12px;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+* {
+  box-sizing: border-box;
+  border: none;
+  margin: 0;
+  /* padding: 10px; */
+}
+
+body {
+  background: var(--bg);
+  font-family: "Inter", system-ui, sans-serif;
+  color: var(--text);
+}
