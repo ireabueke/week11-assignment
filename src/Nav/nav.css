@@ -12,12 +12,24 @@ ul {
   list-style: none;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 2rem;
+  /* margin: 20px; */
 }
 .nav-link {
   text-decoration: none;
   font-weight: 500;
   font-size: x-large;
   line-height: 1.5rem;
-  padding: 20px 10px;
+  padding: 1rem;
+  border-radius: var(--radius);
+  /* margin: 5rem; */
+}
+
+.nav-link:hover {
+  background: var(--bg);
+}
+
+.nav-link:active {
+  background: var(--accent-bg);
+  color: var(--accent);
 }

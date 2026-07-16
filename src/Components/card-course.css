@@ -1,12 +1,14 @@
 .card {
   background: var(--surface);
   margin-top: 20px;
+  width: 400px;
   padding: 20px;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   display: flex;
   flex-direction: column;
   gap: 20px;
+  text-decoration: none;
 }
 .card:hover {
   border: 1px solid var(--accent);

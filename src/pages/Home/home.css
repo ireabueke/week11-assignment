@@ -1,6 +1,6 @@
 main {
   max-width: 900px;
-  padding: 50px;
+  /* padding: 50px; */
   margin: auto;
 }
 .hero {
@@ -13,6 +13,7 @@ main {
   font-weight: 500;
   margin-bottom: 20px;
   line-height: 0.5;
+  margin-top: 50px;
   text-transform: uppercase;
 }
 
@@ -31,8 +32,11 @@ main {
   max-width: 42rem;
   margin-bottom: 20px;
 }
+
 .course-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.25rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: center;
 }

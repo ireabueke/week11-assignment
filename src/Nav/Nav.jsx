@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router";
+import { NavLink } from "react-router";
 import "./nav.css";
 import { home, intermediate, beginner } from "../utils/routs";
 
@@ -8,19 +8,19 @@ function Nav() {
     <nav>
       <ul>
         <li>
-          <Link className="nav-link" to={home}>
+          <NavLink className="nav-link" to={home} end>
             <span className="logo">TJ</span>Courses
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link className="nav-link" to={beginner}>
+          <NavLink className="nav-link" to={beginner}>
             Beginner
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link className="nav-link" to={intermediate}>
+          <NavLink className="nav-link" to={intermediate}>
             Intermediate
-          </Link>
+          </NavLink>
         </li>
       </ul>
     </nav>

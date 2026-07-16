@@ -19,17 +19,21 @@ function Home() {
           practical, and beginner-friendly.
         </p>
       </div>
-      <div className="course-list">
-        {courses.map((course) => {
-          return (
-            <CourseCard
-              key={course.id}
-              title={course.title}
-              category={course.category}
-              duration={course.duration}
-            />
-          );
-        })}
+      <div className="cardContainer">
+        <div className="course-list">
+          {courses.map((course) => {
+            return (
+              <CourseCard
+                key={course.id}
+                title={course.title}
+                category={course.category}
+                duration={course.duration}
+                slug={course.slug}
+                id={course.id}
+              />
+            );
+          })}
+        </div>
       </div>
     </main>
   );

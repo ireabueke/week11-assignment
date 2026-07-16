@@ -1,0 +1,39 @@
+.not-found-container {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 5rem auto;
+  padding: 0 2rem;
+  justify-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  color: var(--border);
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+p {
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+}
+button {
+  margin-top: 2rem;
+  display: block;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0.65rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}

@@ -1,0 +1,13 @@
+.cardContainer {
+  max-width: 900px;
+  margin: auto;
+}
+
+.course-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  justify-items: center;
+  justify-content: center;
+}
