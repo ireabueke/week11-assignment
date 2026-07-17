@@ -1,5 +1,5 @@
 main {
-  max-width: 900px;
+  /* max-width: 900px; */
   /* padding: 50px; */
   margin: auto;
 }
@@ -34,9 +34,8 @@ main {
 }
 
 .course-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 1.25rem;
 }
