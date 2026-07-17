@@ -1,6 +1,7 @@
 .cardContainer {
   max-width: 900px;
   margin: auto;
+  padding: 25px;
 }
 
 /* .course-list {
